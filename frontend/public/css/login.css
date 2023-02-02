@@ -1,0 +1,293 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none!important;
+}
+.inner_header_title{
+  position: relative;
+  border-bottom: 4px solid #DE185A;
+  background-size: cover;
+}
+.inner_header_title:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .6;
+}
+.inner_header_bg{
+  background-image: linear-gradient(#d1166d80, rgba(17, 18, 18,0.5)), url("../images/login_banner.jpg");
+  width: 100%;
+  height: 200px;
+  background-position: 95% 15%;
+}
+.inner_header_title h1 {
+    font-weight: 600;
+    color: #fff!important;
+}
+.inner_header_title .login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    font-size: 30px;
+}
+.inner_header_title .register{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 700; 
+  font-size: 30px;
+}
+
+.tab_sec_padding{
+
+}
+section.gray, .gray {
+    background: #f6f7f9;
+    padding: 80px 0px;
+}
+.form_section .new-logwrap {
+  background: #fff;
+  padding: 70px;
+  margin: 0 auto;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.form_section .new-logwrap .form-group {
+  border: 1px solid #eee;
+  padding: 14px 18px 15px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  width: 100%;
+}
+.form_section .new-logwrap label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #263c61;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  top: -11px;
+  left: 40px;
+  padding: 0 5px;
+  background: #fff;
+}
+.form_section .input-with-icon {
+    position: relative;
+    width: 100%;
+}
+.form_section .form-control {
+  font-size: 15px;
+  color: #445461;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  padding: 1.375rem 2.75rem;
+  border: none  ;
+}
+.form_section .theme-cl, .input-with-icon .theme-cl {
+    color: #de185a;
+}
+.form_section .full-width {
+    width: 100%;
+}
+.form_section .input-with-icon i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 12px;
+  font-size: 20px;
+  font-style: normal;
+  pointer-events: none;
+}
+.form_section .register-account {
+    margin-bottom: 15px;
+    color: #667488;
+    font-size: 15px;
+}
+.form_section .theme-cl{
+    color: #de185a;
+}
+.form_section .btn.btn-primary {
+    border: 1px solid #de185a;
+    background: #de185a;
+}
+.new-logwrap .btn-primary {
+    padding: 18px 0;
+    font-size: 19px;
+}
+.form_section .social-devider {
+    margin-top: 35px;
+    text-align: center;
+    position: relative;
+}
+.form_section .social-devider .line {
+    width: 237px;
+    height: 1px;
+    background: #edf1f9;
+    display: inline-block;
+}
+.form_section .social-devider .circle {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    background: #edf1f9;
+    color: #354b6b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -18px;
+    border-radius: 50%;
+}
+.form_section .new-logwrap .social-login {
+    margin-top: 35px;
+}
+.form_section .social-login .social-login-facebook {
+    background: #3b5998;
+}
+.form_section .jb-btn-icon, .jb-btn-icon:hover, .jb-btn-icon:focus {
+    display: inline-block;
+    width: 100%;
+    border-radius: 5px;
+    background: #f4f5f7;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 25px;
+    font-weight: 600;
+    font-size: 13px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 20px;
+}
+.form_section .social-login i {
+    padding-right: 25px;
+    margin-right: 25px;
+    border-right: 1px solid rgba(255,255,255,.1);
+    position: relative;
+    top: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.form_section .social-login .social-login-google {
+    background: #db4437;
+}
+.form_section .social-login .social-login-twitter {
+    background: #0084b4;
+}
+.form_section .social-login .social-login-linkedin {
+    background: #006fa6;
+}
+input:focus {
+  /*outline: none!important;*/
+  box-shadow: none!important;
+  border: none !important;
+}
+.form_section .icon_color{
+  color: #fff;
+}
+.register_section .sign_in_now_btn {
+    padding: 10px 10px;
+}
+.register_section .sign_in_now_btn a {
+    margin: 0px 15px 0px 5px!important
+}
+
+.register_section .sign_in_now_btn i {
+    color: rgba(0,0,0,.5);
+}
+
+.nav-tabs.modern-tabs {
+    border-bottom: none;
+    background: #f4f5f7;
+    display: table;
+    padding: 5px 2px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.form_section .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #DE185A!important;
+  background-color: #fff;
+  border-radius: 19px;
+}
+.form_section .nav{
+  background: #DE185A;
+  border-radius: 29px;
+  width: 292px;
+  padding: 5px;
+}
+.form_section .nav-pills .nav-link{
+  margin: 5px;
+  color: #fff;
+  padding: 10px 31px;
+}
+.form_section .nav-pills .nav-link:hover {
+  color: #DE185A!important;
+  background-color: #fff;
+  border-radius: 19px;
+  margin: 5px;
+}
+.form_section .new_logwrap_position{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.form_section .tab-content{
+  padding-top: 10px;
+}
+
+.form_section .row{
+    justify-content: space-evenly!important;
+}
+
+
+/*media_query*/
+
+@media only screen and (max-width: 1024px) {
+    .form-inline .form-control{
+        min-width: 242px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .job_navbar_section .sign_in_now_btn a:after {
+        width: 0px;
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .form_section .new-logwrap {
+        padding: 26px;
+    }
+    .inner_header_title .register {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(15%, -50%);
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .job_navbar_section .bg-light {
+        background-color: #fff !important;
+        box-shadow: 0 0 20px 0 rgb(62 28 131 / 10%);
+    }
+    
+}
